@@ -12,7 +12,7 @@ Created on 2014-02-03
 
 print "Python qui compte..."
 
-liste_de_nombres = [1,2,3,4,5]
+liste_de_nombres = range(5)
 
 for un_nombre in liste_de_nombres:
     print un_nombre
