@@ -23,6 +23,6 @@ for nombre in range(0,30):
 for nombre in range(0,30):
         if nombre % 2 == 0:
                 print "Le nombre", nombre, "est pair."
-        	continue	
-	print "Le nombre", nombre, "est impair."
+	else:
+		print "Le nombre", nombre, "est impair."
 

@@ -16,8 +16,6 @@ Created on 2014-02-03
 
 count = 10
 
-while True: #count < 10
+while count < 10
 	print count
 	count += 1
-	if count > 10:
-		break

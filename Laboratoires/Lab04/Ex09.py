@@ -17,6 +17,3 @@ ville_recherchee = "Laval"
 
 for ville in villes:
 	# Votre code va ici
-	if villes[ville] == ville_recherchee:
-		print villes[ville]
-		break

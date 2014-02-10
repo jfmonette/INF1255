@@ -21,4 +21,4 @@ Created on 2014-02-03
 villes = {1: "Montréal", 2: "Laval", 3: "Longueil"}
 
 for ville in villes:
-	print ville, " ", villes[ville] # Votre code va ici
+	# Votre code va ici

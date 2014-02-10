@@ -13,7 +13,6 @@ Created on 2014-02-03
 print "Python qui compte..."
 
 liste_de_nombres = range(5)
-dictionnaire_de_nombres = {1:"Un", 2:"Deux", 3:"Trois", 4:"Quatre", 5:"Cinq"}
 
 for un_nombre in liste_de_nombres:
-    print dictionnaire_de_nombres[un_nombre]
+    print un_nombre

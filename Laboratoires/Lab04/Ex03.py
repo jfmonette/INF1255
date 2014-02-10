@@ -13,5 +13,5 @@ Created on 2014-02-01
 # de répondre par Oui ou Non
 choix = raw_input("Aimez-vous les serpents ? (Oui/Non)")
 
-while choix not in ["Oui", "Non"]:
-    choix = raw_input("Aimez-vous les serpents ? (Oui/Non)")
+while :
+    choice = raw_input("Aimez-vous les serpents ? (Oui/Non)")

@@ -13,6 +13,6 @@ Created on 2014-02-01
 
 count = 0
 
-while count < 10:.
+while count < 2:
     print "Je suis la ligne", count
     count += 1
