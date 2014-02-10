@@ -12,12 +12,8 @@ Created on 2014-02-03
 
 print "Python qui compte..."
 
-<<<<<<< HEAD:Laboratoires/src/Lab04/Ex07.py
-liste_de_nombres = [1,2,3,4,5]
-dictionnaire_de_nombres = {1:"Un", 2:"Deux", 3:"Trois", 4:"Quatre", 5:"Cinq"}
-=======
 liste_de_nombres = range(5)
->>>>>>> fe14cb2761dff33ee2a86d582caa162afad3c1d3:Laboratoires/Lab04/Ex07.py
+dictionnaire_de_nombres = {1:"Un", 2:"Deux", 3:"Trois", 4:"Quatre", 5:"Cinq"}
 
 for un_nombre in liste_de_nombres:
     print dictionnaire_de_nombres[un_nombre]
