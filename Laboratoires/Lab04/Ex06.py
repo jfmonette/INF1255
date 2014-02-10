@@ -29,3 +29,12 @@ nombre_aleatoire = random.randint(1, 10)
 essais_restants = 3
 nombre_choisi = None
 # Créer votre jeu ici.
+while essais_restants != 0:
+	nombre_choisi = input("Entrez un nombre : ")
+	if nombre_choisi == nombre_aleatoire:
+		print "Bravo, vous avez deviné le nombre qui a été pigé !"
+		break
+	essais_restants -= 1
+else:
+	print "Vous avez perdu."
+

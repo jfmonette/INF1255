@@ -9,6 +9,6 @@ Created on 2014-02-01
 
 nombre = 1
 
-while : # Entrez la condition avant le :
-    # Imprimez "nombre au carré = résultat"
-    # Incrémentez la valeur de nombre
+while nombre <= 10: # Entrez la condition avant le ':'
+	print nombre**2 # Imprimez "nombre au carré = résultat"
+	nombre += 1 # Incrémentez la valeur de nombre
