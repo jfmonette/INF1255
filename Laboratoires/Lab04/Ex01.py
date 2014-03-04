@@ -9,7 +9,7 @@ Created on 2014-02-01
 # est vraie. Par contre, contrairement au if, la boucle while continuera
 # d'exécuter le code tant que la condition demeure vraie.
 #
-# Modifiez le code ci-dessous afin qu'il y ait 10 lignes d'imprimer à la console
+# Modifiez le code ci-dessous afin qu'il y ait 10 lignes d'imprimées à la console
 
 count = 0
 

@@ -16,5 +16,3 @@ liste_de_nombres = range(5)
 
 for un_nombre in liste_de_nombres:
     print un_nombre
-    
-    

@@ -10,7 +10,7 @@ Created on 2014-02-02
 #
 # Observez le code ci-dessous, puis exécutez le afin de jouer à la loterie de
 # l'UQAM. N'accordez pas d'importance à l'instruction random.randint() pour
-# l'instant.
+# l'instant. Vous n'avez pas à modifier le code ci-dessous.
 import random
 
 print "Bienvenue à la loterie de l'UQAM !"
