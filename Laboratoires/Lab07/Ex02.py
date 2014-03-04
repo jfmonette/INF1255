@@ -15,13 +15,13 @@ Les fonctions sont définies par trois composantes :
 3. Le corps de la fonction 
    Le corps contient les instructions, indentées, qui implémentent la fonction.
 
-Dans le code ci-dessous, vous devez implémenter la fonction 'BonjourMonde' qui affiche le message 'Bonjour le monde !'.
+Dans le code ci-dessous, vous devez implémenter la fonction 'dire_bonjour_monde' qui affiche le message 'Bonjour le monde !'.
 '''
 
-# Définissez votre fonction 'BonjourMonde' à partir de la ligne 23. vous pouvez laissez le code de la ligne 27 tel quel,
+# Définissez votre fonction 'dire_bonjour_monde' à partir de la ligne 23. vous pouvez laissez le code de la ligne 27 tel quel,
 # nous y reviendrons plus tard.
 
 
 
-# Définissez la fonction 'BonjourMonde' au dessus de cette ligne.
-BonjourMonde()
+# Définissez la fonction 'dire_bonjour_monde' au dessus de cette ligne.
+dire_bonjour_monde()
