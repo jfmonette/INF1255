@@ -63,5 +63,3 @@ def listeContribuablesValides(une_liste_de_contribuables):
         if valideContribuable(un_contribuable):
             contribuables_valides.append(un_contribuable)
     return contribuables_valides
-
-print listeContribuablesValides(contribuables.liste)
