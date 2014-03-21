@@ -1,0 +1,20 @@
+# -*- coding: utf-8 -*-
+
+liste = [{"NN":1001,
+          "Nom":"Monette",
+          "Prenom":"Jean-François",
+          "Prelevements":1000,
+          "CodePostal":3000,
+          "Revenu":[{"Pays":"ca",
+                     "Brut":6800.00},
+                    {"Pays":"be",
+                      "Brut":4000.00}]},
+         {"NN":1002,
+          "Nom":"Tshecke",
+          "Prenom":"Johnny",
+          "Prelevements":2000,
+          "CodePostal":1000,
+          "Revenu":[{"Pays":"ca",
+                     "Brut":1800.00},
+                    {"Pays":"be",
+                     "Brut":4000.00}]}]
