@@ -27,10 +27,10 @@ def validePays(un_code_pays):
     return un_code_pays in lieux.pays
 
 def valideRevenu(une_liste):
-    return est_une_liste_de_revenus(une_liste) and contient_seulement_des_revenus(une_liste)
+    return est_une_liste_de_revenus(une_liste) and tous_les_revenus_sont_valide(une_liste)
 
 def est_une_liste_de_revenus(une_liste):
-    return type(une_liste) is list and contient_seulement_des_revenus(une_liste) and tous_les_revenus_sont_valides(une_liste)
+    return type(une_liste) is list and contient_seulement_des_revenus(une_liste)
 
 def contient_seulement_des_revenus(une_liste):
     contient_seulement_des_revenus = True
