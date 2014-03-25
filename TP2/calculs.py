@@ -12,7 +12,7 @@ def retourner_liste_de_montants_bruts(une_liste_de_revenus):
 
 def brutCa(un_contribuable):
     revenus_canadiens = retourner_liste_de_revenus_canadiens(un_contribuable["Revenu"])
-    return sum(retourner_liste_de_montants_bruts(revenus_canadiens))
+    return brutTotal(revenus_canadiens))
 
 def retourner_liste_de_revenus_canadiens(une_liste_de_revenus):
     revenus_canadiens = []
@@ -29,7 +29,7 @@ def brutImposable(un_contribuable):
     return brut_imposable
 
 def calculImpot(un_contribuable):
-    un_contribuable["Impot"] = brutImposable(un_contribuable)
+    un_contribuable["Impot"] = brutImposable(un_contribuable) * 0.35
 
 def calculBalance(un_contribuable):
     un_contribuable["Balance"] = un_contribuable["Impot"] - un_contribuable["Prelevements"]

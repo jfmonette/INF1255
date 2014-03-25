@@ -15,10 +15,7 @@ def valideNom(un_nom):
     return un_nom.isalpha() and len(un_nom) >= 2
 
 def valideMontant(un_nombre):
-    return est_un_reel(un_nombre)
-
-def est_un_reel(un_nombre):
-    return type(un_nombre) is float
+    return type(un_nombre) is float or type(un_nombre) is int
 
 def valideCodePostal(un_code_postal):
     return un_code_postal in lieux.villes
@@ -27,7 +24,7 @@ def validePays(un_code_pays):
     return un_code_pays in lieux.pays
 
 def valideRevenu(une_liste):
-    return est_une_liste_de_revenus(une_liste) and tous_les_revenus_sont_valide(une_liste)
+    return est_une_liste_de_revenus(une_liste) and sont_des_revenus_valides(une_liste)
 
 def est_une_liste_de_revenus(une_liste):
     return type(une_liste) is list and contient_seulement_des_revenus(une_liste)
@@ -43,13 +40,16 @@ def contient_seulement_des_revenus(une_liste):
 def est_un_revenu(une_entree):
     return len(une_entree) == 2 and "Pays" in une_entree and "Brut" in une_entree
 
-def tous_les_revenus_sont_valides(une_liste_de_revenus):
+def sont_des_revenus_valides(une_liste_de_revenus):
     tous_les_revenus_sont_valides = True
     for un_revenu in une_liste_de_revenus:
-        if not validePays(un_revenu["Pays"]) or not valideMontant(un_revenu["Brut"]):
+        if  not est_un_revenu_valide(un_revenu):
             tous_les_revenus_sont_valides = False
             break
     return tous_les_revenus_sont_valides
+
+def est_un_revenu_valide(un_revenu):
+    return validePays(un_revenu["Pays"]) and valideMontant(un_revenu["Brut"])
 
 def valideContribuable(un_contribuable):
     return valideNN(un_contribuable["NN"]) and \
