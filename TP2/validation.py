@@ -6,7 +6,7 @@ def valideNN(un_nombre):
     return est_un_entier(un_nombre) and est_exclusivement_positif(un_nombre)
 
 def est_un_entier(un_nombre):
-    return type(un_nombre) is int
+    return isinstance(un_nombre, int)
 
 def est_exclusivement_positif(un_nombre):
     return un_nombre > 0
@@ -15,7 +15,7 @@ def valideNom(un_nom):
     return un_nom.isalpha() and len(un_nom) >= 2
 
 def valideMontant(un_nombre):
-    return type(un_nombre) is float or type(un_nombre) is int
+    return isinstance(un_nombre, float) or isinstance(un_nombre, int)
 
 def valideCodePostal(un_code_postal):
     return un_code_postal in lieux.villes
